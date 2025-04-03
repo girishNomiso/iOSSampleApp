@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var email: String = ""
+    @State private var password: String = ""
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack {
+                Text("Sample App")
+                TextField("Email", text: $email)
+                SecureField("Password", text: $password)
+                
+                NavigationLink(destination: Text("Home")) {
+                    Text("Login")
+                }
+            }
+            .padding(10.0)
+            .navigationBarTitle(Text("Landmarks"))
+        }
     }
 }
 
