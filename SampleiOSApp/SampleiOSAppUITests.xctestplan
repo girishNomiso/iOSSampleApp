@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "7E1A018E-CBA9-40C8-B983-35605FF1D225",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SampleiOSApp.xcodeproj",
+        "identifier" : "7D506BEB2DA3C1CD003C0688",
+        "name" : "SampleiOSAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
