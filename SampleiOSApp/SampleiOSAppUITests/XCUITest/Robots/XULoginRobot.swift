@@ -14,9 +14,6 @@ public final class XULoginRobot: XUBaseRobot {
     func enterEmail(_ text: String) -> XULoginRobot {
         let emailTextField = app.textFields["Email"]
         enterText(emailTextField, text: text)
-//        waitForElementExist(emailTextField)
-//        emailTextField.tap()
-//        emailTextField.clearAndEnterText(text)
         return self
     }
     
@@ -24,9 +21,6 @@ public final class XULoginRobot: XUBaseRobot {
     func enterPassword(_ text: String) -> XULoginRobot {
         let passwordSecureField = app.secureTextFields["Password"]
         enterText(passwordSecureField, text: text)
-//        waitForElementExist(passwordSecureField)
-//        passwordSecureField.tap()
-//        passwordSecureField.clearAndEnterText(text)
         return self
     }
     
@@ -34,8 +28,6 @@ public final class XULoginRobot: XUBaseRobot {
     func tapSignIn() -> XULoginRobot {
         let signInButton = app.buttons["Sign In"]
         tap(signInButton)
-//        waitForElementExist(signInButton)
-//        signInButton.tap()
         return self
     }
     
@@ -50,8 +42,6 @@ public final class XULoginRobot: XUBaseRobot {
     func tapOkInAlert() -> XULoginRobot {
         let okButton = app.buttons["OK"]
         tap(okButton)
-//        waitForElementExist(okButton)
-//        okButton.tap()
         return self
     }
 }
