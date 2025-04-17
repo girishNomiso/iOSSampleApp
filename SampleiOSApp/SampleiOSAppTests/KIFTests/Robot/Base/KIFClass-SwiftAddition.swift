@@ -1,5 +1,5 @@
 //
-//  RKTClass-SwiftAddition.swift
+//  KIFRobot-SwiftAddition.swift
 //  SampleiOSAppTests
 //
 //  Created by Girish Chauhan on 16/04/25.
@@ -18,7 +18,7 @@ public extension KIFTestActor {
     }
 }
 
-public extension RKTRobot {
+public extension KIFRobot {
     @nonobjc func viewTester(_ file: StaticString = #file, _ line: UInt = #line) -> KIFUIViewTestActor {
         KIFUIViewTestActor(inFile: "\(file)", atLine: Int(line), delegate: self)
     }

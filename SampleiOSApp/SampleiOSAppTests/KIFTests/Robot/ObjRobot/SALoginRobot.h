@@ -10,9 +10,9 @@
 #define SALoginRobot_h
 //#import <KIF/KIF.h>
 #import <Foundation/Foundation.h>
-#import "RKTRobot.h"
+#import "KIFRobot.h"
 
-@interface SALoginRobot : RKTRobot
+@interface SALoginRobot : KIFRobot
 
 - (void)enterEmail:(NSString *)text;
 - (void)enterPassword:(NSString *)text;

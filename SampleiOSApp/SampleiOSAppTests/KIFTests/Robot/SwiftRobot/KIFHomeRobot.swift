@@ -8,7 +8,7 @@
 
 import Foundation
 
-public final class SWHomeRobot: RKTRobot {
+public final class KIFHomeRobot: KIFRobot {
     func verifyHomeScreen() {
         viewTester()
             .usingLabel("Welcome to the Buy Smart Shop!")
@@ -17,7 +17,7 @@ public final class SWHomeRobot: RKTRobot {
 }
 
 extension XCTestCase {
-    public var homeRobot: SWHomeRobot {
-        return SWHomeRobot(testCase: self)
+    public var homeRobot: KIFHomeRobot {
+        return KIFHomeRobot(testCase: self)
     }
 }

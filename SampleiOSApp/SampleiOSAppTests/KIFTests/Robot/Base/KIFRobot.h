@@ -1,19 +1,19 @@
 //
-//  RKTRobot.h
+//  KIFRobot.h
 //  SampleiOSApp
 //
 //  Created by Girish Chauhan on 07/04/25.
 //  Copyright © 2025 Girish. All rights reserved.
 //
 
-#ifndef RKTRobot_h
-#define RKTRobot_h
+#ifndef KIFRobot_h
+#define KIFRobot_h
 
 #import <KIF/KIF.h>
 @import XCTest;
 
 
-@interface RKTRobot : NSObject <KIFTestActorDelegate>
+@interface KIFRobot : NSObject <KIFTestActorDelegate>
 
 @property (nonatomic) NSString *name;
 
@@ -24,4 +24,4 @@
 - (nonnull instancetype)init NS_UNAVAILABLE;
 
 @end
-#endif /* RKTRobot_h */
+#endif /* KIFRobot_h */

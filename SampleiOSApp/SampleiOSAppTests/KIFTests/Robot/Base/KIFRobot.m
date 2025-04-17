@@ -1,5 +1,5 @@
 //
-//  RKTRobot.m
+//  KIFRobot.m
 //  SampleiOSAppTests
 //
 //  Created by Girish Chauhan on 07/04/25.
@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RKTRobot.h"
+#import "KIFRobot.h"
 
-//#import <SquareKIFTesting/RKTTestCase.h>
-
-@implementation RKTRobot
+@implementation KIFRobot
 
 #pragma mark - KIFTestActorDelegate
 

@@ -8,10 +8,11 @@
 
 import Foundation
 
-public final class SWLoginRobot: RKTRobot {
+public final class KIFLoginRobot: KIFRobot {
     
     func enterEmail(text: String) {
-        self.viewTester().usingLabel("Email").tap()
+        self.viewTester()
+            .usingLabel("Email").tap()
         self.viewTester().usingFirstResponder().clearAndEnterText(text)
     }
     
@@ -40,7 +41,7 @@ public final class SWLoginRobot: RKTRobot {
 }
 
 extension XCTestCase {
-    public var loginRobot: SWLoginRobot {
-        SWLoginRobot(testCase: self)
+    public var loginRobot: KIFLoginRobot {
+        KIFLoginRobot(testCase: self)
     }
 }

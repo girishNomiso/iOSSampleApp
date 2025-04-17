@@ -3,4 +3,4 @@
 //
 
 #import <KIF/KIF.h>
-#import "RKTRobot.h"
+#import "KIFRobot.h"

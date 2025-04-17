@@ -25,7 +25,7 @@ final class LoginTests: XCTestCase {
     }
 }
 
-final class NewLoginTests: KIFTestCase {
+final class KIFLoginTests: KIFTestCase {
     /**
      * Test case: Invalid Input in Login Flow
      */
